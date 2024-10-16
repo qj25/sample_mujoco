@@ -1,10 +1,6 @@
 # sample_mujoco
 Sample MuJoCo environment with Denso robot. Feel free to add more stuff and more robots or your own packages.
 
-## IK
-Inverse Kinematics follows pseudocode from ([Comparative Analysis of the Inverse Kinematics of a 6-DOF Manipulator](https://www.diva-portal.org/smash/get/diva2:1774792/FULLTEXT01.pdf)) implemented by [Alexis Fraudita](https://github.com/andyzeng/ikfastpy/tree/master).
-
-
 ## Requires
 On Ubuntu, make sure you have the packages
 
