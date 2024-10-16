@@ -11,4 +11,4 @@ installed:
 > sudo apt install liblapack-dev libopenblas-dev
 
 Also requires:
--[MuJoCo](https://github.com/google-deepmind/mujoco), [Gymansium](https://github.com/Farama-Foundation/Gymnasium), [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3), [mujoco-python-viewer](https://github.com/rohanpsingh/mujoco-python-viewer), [toppra](https://github.com/hungpham2511/toppra.git), [eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page#Download)
+-[MuJoCo](https://github.com/google-deepmind/mujoco), [Gymnasium](https://github.com/Farama-Foundation/Gymnasium), [mujoco-python-viewer](https://github.com/rohanpsingh/mujoco-python-viewer), [toppra](https://github.com/hungpham2511/toppra.git), [eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page#Download)
