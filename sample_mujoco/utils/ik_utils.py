@@ -91,6 +91,7 @@ class LevenbegMarquardtIK:
         i_compute = 0
         i_c_lim = 10000
         while not check_prox(goal_pose, eef_pose):
+            print(i_compute)
             i_compute += 1
             #calculate jacobian
             mujoco.mj_jacSite(
@@ -102,7 +103,7 @@ class LevenbegMarquardtIK:
             )
             J_full = np.vstack([self.jacp, self.jacr])[:, :6]
             delta_q = (
-                np.dot(J_full.T, pose_error)
+                np.dot(np.linalg.pinv(J_full), pose_error)
             )
             #compute next step
             self.data.qpos += self.step_size * delta_q
