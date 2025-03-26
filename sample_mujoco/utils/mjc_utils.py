@@ -103,6 +103,8 @@ def get_sensor_force(mj_model, mj_data, body_name, frame_pos, frame_quat):
     mat_ct = np.zeros(9)
     mujoco.mju_quat2Mat(mat_ct, q_ct_n)
 
+    # print(f"p = {p_ct}")
+    # print(f"q = {q_ct}")
     # transform to desired frame
     trn_force = force_com.copy()
     mujoco.mju_transformSpatial(
